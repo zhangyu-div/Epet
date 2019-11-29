@@ -10,7 +10,7 @@ address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:norm
 
 ul, ol ,li{ list-style:none; }
 
-body { color:#333; font:12px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;}
+body { color:#333;font-family: Microsoft Yahei,-apple-system-font,Helvetica Neue,sans-serif; font-size:16px}
 
 a { color:#666; text-decoration:none; }
 /*清除浮动*/
@@ -23,7 +23,10 @@ body,html{
 html{
     font-size:26.667vw;
 }
-
+#root{
+    height: 100%;
+    width: 100%;
+}
 
 
 

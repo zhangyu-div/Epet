@@ -8,14 +8,10 @@ export const Selected = Loadable({
 })
 
 
-
-
 export const Cart = Loadable({
     loader:()=>import("./cart"),
     loading:Loading
 })
-
-
 
 
 
@@ -24,11 +20,11 @@ export const Classify = Loadable({
     loading:Loading
 })
 export const Classifytabone = Loadable({
-    loader:()=>import("../components/classifytab/tabone"),
+    loader:()=>import("../components/classifytab/tabone/tabone"),
     loading:Loading
 })
 export const Classifytabtwo = Loadable({
-    loader:()=>import("../components/classifytab/tabtwo"),
+    loader:()=>import("../components/classifytab/tabtwo/tabtwo"),
     loading:Loading
 })
 
